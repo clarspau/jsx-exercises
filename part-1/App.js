@@ -1,8 +1,7 @@
 /** renders a <div> with instances of the other two components. */
 
 function App() {
-     const root = ReactDOM.createRoot(document.getElementById('root'));
-     root.render(
+     return (
           <div>
                <FirstComponent />
                <NamedComponent name="Hoka" />
