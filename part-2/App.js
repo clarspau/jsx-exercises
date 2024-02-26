@@ -1,4 +1,6 @@
-function App() {
+/** App should render the tweets */
+
+const App = () => {
      return (
           <div>
                <Tweet

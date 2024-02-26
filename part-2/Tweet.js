@@ -5,13 +5,13 @@
  * - tweet message
  */
 
-function Tweet({ username, name, date, message }) {
+const Tweet = ({ username, name, date, message }) => {
      return (
-          <div class="tweet">
-               <span class="username">{username}</span>
-               <span>{name}</span>
-               <span class="date">{date}</span>
-               <span>{message}</span>
+          <div className="tweet">
+               <span className="username"><i>{username}</i> </span>
+               <span>{name} </span>
+               <span className="date">{date}: </span>
+               <span>"{message}"</span>
           </div>
      );
 }
