@@ -6,5 +6,3 @@ const App = () => (
           <NamedComponent name="Hoka" />
      </div>
 )
-
-ReactDOM.render(<App />, document.getElementById("root"));
